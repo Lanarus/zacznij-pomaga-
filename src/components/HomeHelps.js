@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 
+import RouteWithSubRoutes from "./RouteWithSubRoutes";
 
 const HomeHelps = ({ routes }) => {
   return (
@@ -23,11 +24,13 @@ const HomeHelps = ({ routes }) => {
         </li>
       </ul>
 
-      <Switch>
-        {routes.map((route, i) => (
-          <RouteWithSubRoutes key={i} {...route} />
-        ))}
-      </Switch>
+    <Router>
+        <Switch>
+            {routes.map((route, i) => (
+                <RouteWithSubRoutes key={i} {...route} />
+            ))}
+        </Switch>
+    </Router>
     </div>
   );
 }

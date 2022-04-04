@@ -1,4 +1,4 @@
-const Zbiórkom = () => {
+const Zbiorkom = () => {
     return ( 
     <div className="helps">
     Zbiórkom
@@ -7,4 +7,4 @@ const Zbiórkom = () => {
   );
 }
  
-export default Zbiórkom;
+export default Zbiorkom;

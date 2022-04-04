@@ -2,9 +2,8 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
 } from "react-router-dom";
+
 //import HomeFooter from 'components/HomeFooter';
 import Home from './components/Home';
 import HomeFourSteps from './components/HomeFourSteps';
@@ -16,7 +15,7 @@ import HomeThreeColumns from './components/HomeThreeColumns';
 import Navbar from './components/Navbar';
 import Fundacjom from './components/Fundacjom';
 import Organizacjom from './components/Organizacjom';
-import Zbiórkom from './components/Zbiórkom';
+import Zbiorkom from './components/Zbiorkom';
 
 import RouteWithSubRoutes from "./components/RouteWithSubRoutes";
 
@@ -56,7 +55,7 @@ const routes = [
       },
       {
         path: "/fundacja-i-organizacje/lokalnym-zbiórkom",
-        component: Zbiórkom
+        component: Zbiorkom
       }
     ]
   },
