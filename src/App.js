@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-} from "react-router-dom";
+import {BrowserRouter as Router, Switch,} from "react-router-dom";
 
 //import HomeFooter from 'components/HomeFooter';
 import Home from './components/Home';
@@ -13,7 +10,8 @@ import HomeKontact from './components/HomeKontact';
 import HomeOnas from './components/HomeOnas';
 import HomeThreeColumns from './components/HomeThreeColumns';
 import Navbar from './components/Navbar';
-import Fundacjom from './components/Fundacjom';
+// Zmieniony sposób importu "Fundacjom" - nazwany import
+import {Fundacjom} from './components/Fundacjom';
 import Organizacjom from './components/Organizacjom';
 import Zbiorkom from './components/Zbiorkom';
 
@@ -63,24 +61,23 @@ const routes = [
     path: "/kontakt",
     component: HomeKontact
   }
-  
+
 ];
 
+// Troszkę poprawiłem wcięcia ;)
 export default function App() {
   return (
     <Router>
       <div className="App">
-      <Navbar />
+        <Navbar/>
         <div className="content">
-        <Switch>
-          {routes.map((route, i) => (
-            <RouteWithSubRoutes key={i} {...route} />
-          ))}
-        </Switch>
+          <Switch>
+            {routes.map((route, i) => (
+              <RouteWithSubRoutes key={i} {...route} />
+            ))}
+          </Switch>
 
         </div>
-
-        
       </div>
     </Router>
   );
