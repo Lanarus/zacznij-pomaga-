@@ -1,10 +1,7 @@
-const Zbiórkom = () => {
+export const Zbiorkom = () => {
     return ( 
     <div className="helps">
     Zbiórkom
-    
   </div> 
   );
 }
- 
-export default Zbiórkom;

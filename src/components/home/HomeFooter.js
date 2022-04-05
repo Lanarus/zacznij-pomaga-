@@ -1,7 +1,7 @@
 const HomeFooter = () => {
     return ( 
         <div className="homeFooter">
-            footer
+            <h6 className="copyright">Copyright by Coders Lab</h6>
         </div>
      );
 }

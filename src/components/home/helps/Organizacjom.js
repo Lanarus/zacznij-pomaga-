@@ -1,4 +1,4 @@
-const Organizacjom = () => {
+export const Organizacjom = () => {
     return ( 
     <div className="helps">
     Organizacjom
@@ -6,5 +6,3 @@ const Organizacjom = () => {
   </div> 
   );
 }
- 
-export default Organizacjom;

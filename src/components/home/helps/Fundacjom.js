@@ -1,4 +1,4 @@
-const Fundacjom = () => {
+export const Fundacjom = () => {
     return ( 
     <div className="helps">
     Fundacjom
@@ -6,5 +6,3 @@ const Fundacjom = () => {
   </div> 
   );
 }
- 
-export default Fundacjom;
