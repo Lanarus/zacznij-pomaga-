@@ -6,18 +6,19 @@ import HomeKontact from './HomeKontact';
 import HomeFooter from './HomeFooter';
 import HomeHelps from './helps/HomeHelps';
 
-const Home = () => {
-    return ( 
+const Home = (props) => {
+  console.log(props); // Tutaj zobaczysz po wejściu na "Fundacja i Organizacje" propsa "routes" który powinien być niżej
+  return (
     <div className="home">
-    <HomeHeader/>
-    <HomeThreeColumns/>
-    <HomeFourSteps/>
-    <HomeOnas/>
-    <HomeHelps/>
-    <HomeKontact/>
-    <HomeFooter/>  
-  </div> 
+      <HomeHeader/>
+      <HomeThreeColumns/>
+      <HomeFourSteps/>
+      <HomeOnas/>
+      <HomeHelps/>
+      <HomeKontact/>
+      <HomeFooter/>
+    </div>
   );
 }
- 
+
 export default Home;

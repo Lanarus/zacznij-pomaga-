@@ -1,18 +1,16 @@
 import React from "react";
-import RouteWithSubRoutes from "../../RouteWithSubRoutes";
+import { RouteWithSubRoutes } from "../../RouteWithSubRoutes";
 
 import {
   Switch,
   Link
 } from "react-router-dom";
-/*  import { HELPS_ROUTES } from "../../../constants/routes"; */
+import { HELPS_ROUTES } from "../../../constants/routes";
 
-const HomeHelps = (props) => {
-  console.log(props);
+const HomeHelps = () => {
   return (
     <div>
-      HOME HELPS
-     {/*  <h2>Komu pomagamy</h2>
+     <h2>Komu pomagamy</h2>
       <ul>
         <li>
           <Link to="/fundacja-i-organizacje/fundacjom">Fundacjom</Link>
@@ -29,7 +27,7 @@ const HomeHelps = (props) => {
         {HELPS_ROUTES.map((route, i) => (
           <RouteWithSubRoutes key={i} {...route} />
         ))}
-      </Switch> */}
+      </Switch>
     </div>
   );
 }
