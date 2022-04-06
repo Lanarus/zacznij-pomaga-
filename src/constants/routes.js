@@ -22,6 +22,7 @@ export const HELPS_ROUTES = [
 
 export const ROUTES = [
   {
+    exact: true,
     path: "/",
     component: Home
   },
@@ -34,8 +35,9 @@ export const ROUTES = [
     component: Home
   },
   {
-    path:HELPS_ROOT_PATH,
-    component: Home,
+    path: HELPS_ROOT_PATH,
+    component: Home, // Tutaj to Home dostaje te subrouty, nie HomeHelps. Można by je przekazać przez "props" w Home niżej,
+    // Ale niepotrzebnie by to komplikowało kod - wróciłem do przekazania ich bezpośrednio w HomeHelps.
     routes: HELPS_ROUTES
   },
   {
