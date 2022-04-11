@@ -9,5 +9,257 @@
 * {
     margin: 0;
     font-family: "$font-base";
-    color: rgb(22, 35, 221);
+    color: $color;
+    
   }
+
+.app {
+  background-color: white;
+
+  min-height: 100%;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+} 
+
+.logowanie {
+  display: flex;
+  justify-content: flex-end;
+    button {
+      padding: 9px 10px 9px 10px;
+    }
+    button:hover {
+      border: 1px solid $backgraund-button-hover;
+    }
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 80px;
+}
+
+.home {
+  max-width: 1900px;
+	margin: 0px;
+  
+}
+.HomeHeader {
+  display: flex; 
+  margin-top: -130px;
+  margin-left: -320px;
+  
+}
+.headerBtn {
+  display: flex;
+  flex-direction: row;
+  width: 550px;
+  
+  
+}
+.containerHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+  margin: 20px;
+}
+
+.headerImage {
+  
+  width: 900px;
+  height: 900px;
+}
+    
+  
+  
+.HomeHeader button {
+  border: 1px solid $color;
+  width: 310px;
+  height: 100px;
+  text-align: center;
+  font: $font-base;
+  font-weight: 300;
+  font-size: 36px;
+}
+   
+
+.containerColumns {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.columns {
+  
+  height: 300px;
+  background-image: url(/assets/3Columns-Background.png);
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+  
+article {
+  text-align: center;
+  padding: 10px 40px 10px 40px;
+  margin: 0px 35px 0px 35px;
+  
+} 
+article p {
+  padding-top: 10px;
+  margin-bottom: auto;
+}
+article h1 {
+  font-weight: 300;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+article h3 {
+  padding-bottom: 15px;
+}
+
+
+.fourSteps {
+  background-color: $backgraund-main;
+  height: 325px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerSteps {
+  width: 1000px;
+  display: flex;
+  
+  justify-content: space-around;
+  
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+.containerSteps article {
+  padding: 10px 40px 10px 40px;
+  margin: 0px 20px 0px 20px;
+  .icon {
+    width: 83px;
+    height: 83px;
+    padding-bottom: 5px;
+  }
+}
+article .line {
+  padding: 0;
+  margin: 0;
+}
+.btnSteps {
+  display: flex;
+  justify-content: center;
+    button {
+      box-sizing: border-box;
+      width: 200px;
+      height: 85px;
+      margin: 20px 0 40px 0;
+      padding: 10px 50px 10px 50px;
+      border: 1px solid $color;
+      font-size: large;
+    }
+}
+
+.homeOnas {
+  display: flex;  
+  background-color: $backgraund-main;
+}
+.contentOnas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px 150px 50px 150px;
+    .signature {
+      padding-left: 260px;
+      margin-top: 30px;
+      width: 150px;
+      height: 120px;
+    }
+  
+}
+.onasImage {
+  width: 687px;
+  height: 650px;
+  
+}
+
+.homeHelps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.whoHelps {
+  text-align: center;
+    ul {
+      display: flex;
+      flex-direction: row;
+    }
+}
+.whoHelps button {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  font: $font-base;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 0px 20px 0px 20px;
+  
+}
+
+.variantsHelps {
+  width: 1000px;
+  height: 450px;
+  border: 1px solid $color;
+  margin-top: 50px;
+}
+
+
+.homeKontact {
+  height: 900px;
+  background-image: url("/assets/Background-Contact-Form.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.formContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  margin-right: 200px;
+  padding-top: 100px;
+}
+.form {
+  padding: 15px 0px 15px 0px;
+}
+.formfield {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.homeFooter {
+  display: flex;
+  
+  justify-content: end;
+  align-content: center;
+  
+}
+.footerContent {
+  margin-top: -150px;
+}
+
+
+

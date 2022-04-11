@@ -1,6 +1,6 @@
 const ZałóżKonto = () => {
     return ( 
-        <div className="załóżKonto">
+        <div className="zalozKonto">
             ZałóżKonto
         </div>
      );

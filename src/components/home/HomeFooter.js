@@ -1,7 +1,19 @@
+import Instagram from '../../assets/Instagram.svg';
+import Facebook from '../../assets/Facebook.svg';
+
 const HomeFooter = () => {
     return ( 
         <div className="homeFooter">
-            <h6 className="copyright">Copyright by Coders Lab</h6>
+            <div className='footerContent'>
+            <div className="copyright">
+                <h6>Copyright by Coders Lab</h6>
+            </div>
+            <div className="icons">
+            <img className="Instagram" src={Instagram} alt="Instagram"/>
+            <img className="Facebook" src={Facebook} alt="Facebook"/>
+            </div>
+            </div>
+            
         </div>
      );
 }

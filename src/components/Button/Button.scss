@@ -1,0 +1,12 @@
+@import '../../scss/settings/colors';
+
+.Button {
+    padding: 9px 20px 9px 20px;
+    background-color: $background-button;
+    border: none;
+    box-sizing: content-box;
+      
+    &:hover {
+      border: 1px solid $color;
+    }
+}

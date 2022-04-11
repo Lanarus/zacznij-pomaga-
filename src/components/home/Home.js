@@ -1,4 +1,4 @@
-import HomeHeader from './HomeHeader';
+import HomeHeader from './HomeHeader/HomeHeader';
 import HomeThreeColumns from './HomeThreeColumns';
 import HomeFourSteps from './HomeFourSteps';
 import HomeOnas from './HomeOnas';
@@ -10,13 +10,15 @@ const Home = (props) => {
   console.log(props); // Tutaj zobaczysz po wejściu na "Fundacja i Organizacje" propsa "routes" który powinien być niżej
   return (
     <div className="home">
-      <HomeHeader/>
-      <HomeThreeColumns/>
-      <HomeFourSteps/>
-      <HomeOnas/>
-      <HomeHelps/>
-      <HomeKontact/>
-      <HomeFooter/>
+      
+        <HomeHeader/>
+        <HomeThreeColumns/>
+        <HomeFourSteps/>
+        <HomeOnas/>
+        <HomeHelps/>
+        <HomeKontact/>
+        <HomeFooter/>
+      
     </div>
   );
 }

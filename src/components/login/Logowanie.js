@@ -1,15 +1,15 @@
-import Zaloguj from "./Zaloguj";
-import ZałóżKonto from "./ZałóżKonto";
+import { Button } from "../Button/Button";
+//import Zaloguj from "./Zaloguj";
+//import ZałóżKonto from "./ZałóżKonto";
 
 
 
 const Logowanie = () => {
     return ( 
     <div className="logowanie">
-    <button>Zaloguj</button>
-    <button>Założ konto</button>
-    
-  </div> 
+      <Button>Zaloguj</Button>
+      <Button>Założ konto</Button>
+    </div> 
   );
 }
  

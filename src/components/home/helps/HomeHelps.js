@@ -1,6 +1,7 @@
 import React from "react";
 import { RouteWithSubRoutes } from "../../RouteWithSubRoutes";
-
+import { Button } from "../../Button/Button";
+import { Decoration } from '../../Decoration/Decoration';
 import {
   Switch,
   Link
@@ -9,25 +10,32 @@ import { HELPS_ROUTES } from "../../../constants/routes";
 
 const HomeHelps = () => {
   return (
-    <div>
-     <h2>Komu pomagamy</h2>
+    <div className="homeHelps">
+     <div className="decoration"> 
+            <Decoration text="Komu pomagamy?"/>
+          </div>
+      <div className="whoHelps">
       <ul>
         <li>
-          <Link to="/fundacja-i-organizacje/fundacjom">Fundacjom</Link>
+          <Link to="/fundacja-i-organizacje/fundacjom"><Button>Fundacjom</Button></Link>
         </li>
         <li>
-          <Link to="/fundacja-i-organizacje/organizacjom-pozarządowym">Organizacjom pozarządowym</Link>
+          <Link to="/fundacja-i-organizacje/organizacjom-pozarządowym"><Button>Organizacjom pozarządowym</Button></Link>
         </li>
         <li>
-          <Link to="/fundacja-i-organizacje/lokalnym-zbiórkom">Lokalnym zbiórkom</Link>
+          <Link to="/fundacja-i-organizacje/lokalnym-zbiórkom"><Button>Lokalnym zbiórkom</Button></Link>
         </li>
       </ul>
+      </div>
 
+      
+      <div className="variantsHelps">
       <Switch>
         {HELPS_ROUTES.map((route, i) => (
           <RouteWithSubRoutes key={i} {...route} />
         ))}
       </Switch>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,17 @@
+.Decoration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    
+
+    &-text {
+        // font-size: 24px;
+        font-weight: 300;
+        font-size: 38px;
+        letter-spacing: -0.76px;
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+}

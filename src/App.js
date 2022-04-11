@@ -10,7 +10,7 @@ import {ROUTES} from "./constants/routes";
 export default function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="app">
         <Logowanie/>
         <Navbar/>
         <div className="content">
