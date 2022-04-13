@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { scroller } from "react-scroll";
 
 import { HomeHeader } from './HomeHeader/HomeHeader';
 import { HomeThreeColumns } from './HomeThreeColumns';
@@ -9,11 +10,9 @@ import { HomeKontact } from './HomeKontact';
 import { HomeFooter } from './HomeFooter';
 import { HomeHelps } from './helps/HomeHelps';
 
-import { scroller } from "react-scroll";
-import { ROUTES_TO_CLASSNAMES_MAP } from "../../constants/routesHome";
+import { ROUTES_TO_CLASSNAMES_MAP } from "../../constants/routes";
 
 export const Home = (props) => {
-  
   const pathname = useLocation().pathname;
 
   useEffect(() => {

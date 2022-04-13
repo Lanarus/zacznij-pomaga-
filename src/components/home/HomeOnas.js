@@ -5,11 +5,8 @@ import Signature from '../../assets/Signature.svg';
 
 import { Element } from "react-scroll";
 
-import { ROUTES_TO_CLASSNAMES_MAP } from "../../constants/routesHome";
+import { ROUTES_TO_CLASSNAMES_MAP } from "../../constants/routes";
 import { ABOUT_US_ROUTE } from "../../constants/routeNames";
-        
-
-
 
 export const HomeOnas = () => {
     return ( 

@@ -1,7 +1,9 @@
-import { Home } from '../components/home/Home';
-import { Fundacjom } from '../components/home/helps/Fundacjom';
-import { Organizacjom } from '../components/home/helps/Organizacjom';
-import { Zbiorkom } from '../components/home/helps/Zbiorkom';
+import {Home} from '../components/home/Home';
+import {Fundacjom} from '../components/home/helps/Fundacjom';
+import {Organizacjom} from '../components/home/helps/Organizacjom';
+import {Zbiorkom} from '../components/home/helps/Zbiorkom';
+
+import {ABOUT_US_ROUTE, COLUMNS_ROUTE, HELPS_ROUTE, HOME_ROUTE, KONTACT_ROUTE} from "./routeNames";
 
 export const HELPS_ROOT_PATH = '/fundacja-i-organizacje';
 
@@ -45,3 +47,11 @@ export const ROUTES = [
     component: Home
   }
 ];
+
+export const ROUTES_TO_CLASSNAMES_MAP = {
+  [HOME_ROUTE]: "home",
+  [COLUMNS_ROUTE]: "HomeThreeColumns",
+  [ABOUT_US_ROUTE]: "oNas",
+  [HELPS_ROUTE]: "komuPomagamy",
+  [KONTACT_ROUTE]: "kontact"
+};
