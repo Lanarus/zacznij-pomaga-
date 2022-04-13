@@ -8,8 +8,15 @@ import {
 } from "react-router-dom";
 import { HELPS_ROUTES } from "../../../constants/routes";
 
+import { Element } from "react-scroll";
+
+import { ROUTES_TO_CLASSNAMES_MAP } from "../../../constants/routes";
+import { HELPS_ROUTE } from "../../../constants/routeNames";
+
 export const HomeHelps = () => {
   return (
+    <Element 
+     name={ROUTES_TO_CLASSNAMES_MAP[HELPS_ROUTE]}>
     <div className="homeHelps">
      <div className="decoration"> 
             <Decoration text="Komu pomagamy?"/>
@@ -37,6 +44,7 @@ export const HomeHelps = () => {
       </Switch>
       </div>
     </div>
+    </Element>
   );
 }
  

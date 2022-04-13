@@ -1,5 +1,13 @@
+import { Element } from "react-scroll";
+
+import { ROUTES_TO_CLASSNAMES_MAP } from "../../constants/routes";
+import { COLUMNS_ROUTE } from "../../constants/routeNames";
+
+
 export const HomeThreeColumns = () => {
     return ( 
+      <Element 
+     name={ROUTES_TO_CLASSNAMES_MAP[COLUMNS_ROUTE]}>
     <div className="containerColumns">
       <div className="columns">
         <article>
@@ -22,6 +30,7 @@ export const HomeThreeColumns = () => {
         </article>
       </div> 
     </div>
+    </Element>
   );
 }
  

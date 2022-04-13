@@ -1,8 +1,15 @@
 import { Decoration } from '../Decoration/Decoration';
 import { Button } from "../Button/Button";
 
+import { Element } from "react-scroll";
+
+import { ROUTES_TO_CLASSNAMES_MAP } from "../../constants/routes";
+import { KONTACT_ROUTE } from "../../constants/routeNames";
+
 export const HomeKontact = () => {
     return ( 
+  <Element 
+     name={ROUTES_TO_CLASSNAMES_MAP[KONTACT_ROUTE]}>
     <div className="homeKontact">
      <div className="formContent"> 
       <div className="decKontact"> 
@@ -36,7 +43,8 @@ export const HomeKontact = () => {
          <Button>Wyślij</Button>
         </div>
       </div>
-  </div> 
+   </div> 
+  </Element>
   );
 }
  
