@@ -1,7 +1,7 @@
 import { Decoration } from '../Decoration/Decoration';
 import { Button } from "../Button/Button";
 
-const HomeKontact = () => {
+export const HomeKontact = () => {
     return ( 
     <div className="homeKontact">
      <div className="formContent"> 
@@ -40,4 +40,3 @@ const HomeKontact = () => {
   );
 }
  
-export default HomeKontact;

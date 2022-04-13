@@ -1,4 +1,4 @@
-import Home from '../components/home/Home';
+import { Home } from '../components/home/Home';
 import { Fundacjom } from '../components/home/helps/Fundacjom';
 import { Organizacjom } from '../components/home/helps/Organizacjom';
 import { Zbiorkom } from '../components/home/helps/Zbiorkom';

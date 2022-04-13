@@ -26,13 +26,8 @@
 .logowanie {
   display: flex;
   justify-content: flex-end;
-    button {
-      padding: 9px 10px 9px 10px;
-    }
-    button:hover {
-      border: 1px solid $backgraund-button-hover;
-    }
 }
+
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -45,47 +40,6 @@
 	margin: 0px;
   
 }
-.HomeHeader {
-  display: flex; 
-  margin-top: -130px;
-  margin-left: -320px;
-  
-}
-.headerBtn {
-  display: flex;
-  flex-direction: row;
-  width: 550px;
-  
-  
-}
-.containerHeader {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 600px;
-  margin: 20px;
-}
-
-.headerImage {
-  
-  width: 900px;
-  height: 900px;
-}
-    
-  
-  
-.HomeHeader button {
-  border: 1px solid $color;
-  width: 310px;
-  height: 100px;
-  text-align: center;
-  font: $font-base;
-  font-weight: 300;
-  font-size: 36px;
-}
-   
 
 .containerColumns {
   display: flex;
@@ -246,6 +200,7 @@ article .line {
 .formfield {
   display: flex;
   flex-direction: column;
+  width: 250px;
 }
 
 

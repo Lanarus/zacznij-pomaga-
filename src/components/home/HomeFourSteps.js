@@ -8,7 +8,7 @@ import Icon4 from '../../assets/Icon-4.svg';
 //import { Button } from 'react-scroll/modules';
 
 
-const HomeFourSteps = () => {
+export const HomeFourSteps = () => {
     return ( 
         <div className="homeFourSteps">
             
@@ -52,4 +52,3 @@ const HomeFourSteps = () => {
      );
 }
  
-export default HomeFourSteps;

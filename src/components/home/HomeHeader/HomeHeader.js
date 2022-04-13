@@ -1,31 +1,38 @@
 import { Decoration } from '../../Decoration/Decoration';
-import HeaderImage from './Home-Hero-Image.jpg';
+// import HeaderImage from './Home-Hero-Image.jpg';
 import { Button } from "../../Button/Button";
+import { Logowanie } from '../../login/Logowanie';
+import { Navbar} from '../../Navbar';
 
-const HomeHeader = () => {
+import './HomeHeader.scss';
+
+export const HomeHeader = () => {
     return ( 
-   
       <div className="HomeHeader">
-        <div className="hImg">
-          <img className="headerImage" src={HeaderImage} alt="header image"/>
-        </div>
+        <Logowanie/>
+        <Navbar/>
+
+        
+        {/* <div className="headerImage">
+          <img src={HeaderImage} alt="header image"/>
+        </div>  */}
+        
      
         <div className='containerHeader'>
           <div className="decoration"> 
-            <Decoration text="Zacznij pomagać! Oddaj niechciane rzeczy w zaufane ręce"/>
+            <Decoration size={"small"} text={<>Zacznij pomagać! <br/> Oddaj niechciane rzeczy w zaufane ręce</>}/>
           </div>
         
-          <div className='headerBtn'>
-            <Button>ODDAJ RZECZY</Button>
-            <Button>ZORGANIZUJ ZBIÓRKĘ</Button> 
+          <div className='containerBtn'>
+            <Button className="btn" forceBorder height="75px" width="200px" size="big" style={{backgroundColor: 'red'}}>ODDAJ RZECZY</Button>
+            <Button className="btn" forceBorder height="75px" width="200px" size="big">ZORGANIZUJ ZBIÓRKĘ</Button> 
           </div>
         </div>
       </div> 
-   
   );
 }
  
-export default HomeHeader;
+
 /*
 <div className="homeImg" src = "assets/Home-Hero-Image.jpg" alt= "home image"/>
 */

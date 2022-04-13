@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import { HELPS_ROUTES } from "../../../constants/routes";
 
-const HomeHelps = () => {
+export const HomeHelps = () => {
   return (
     <div className="homeHelps">
      <div className="decoration"> 
@@ -40,4 +40,3 @@ const HomeHelps = () => {
   );
 }
  
-export default HomeHelps;

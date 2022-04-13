@@ -1,7 +1,9 @@
 export const Fundacjom = () => {
-    return ( 
-    <div className="helps">
-    Fundacjom
-  </div> 
-  );
+  return ( 
+  <div className="helps">
+  Organizacjom
+  
+</div> 
+);
 }
+   

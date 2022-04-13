@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "./Button/Button";
 
 
-const Navbar = () => {
+export const Navbar = () => {
     return ( 
     <nav className="navbar">
             <Link to="/"><Button>Home</Button></Link>
@@ -14,4 +14,3 @@ const Navbar = () => {
   );
 }
  
-export default Navbar;

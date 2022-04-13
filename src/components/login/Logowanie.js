@@ -4,7 +4,7 @@ import { Button } from "../Button/Button";
 
 
 
-const Logowanie = () => {
+export const Logowanie = () => {
     return ( 
     <div className="logowanie">
       <Button>Zaloguj</Button>
@@ -13,4 +13,3 @@ const Logowanie = () => {
   );
 }
  
-export default Logowanie;

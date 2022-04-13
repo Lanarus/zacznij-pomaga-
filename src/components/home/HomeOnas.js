@@ -2,12 +2,19 @@ import { Decoration } from './../Decoration/Decoration';
 import OnasImage from '../../assets/People.jpg';
 
 import Signature from '../../assets/Signature.svg';
+
+import { Element } from "react-scroll";
+
+import { ROUTES_TO_CLASSNAMES_MAP } from "../../constants/routesHome";
+import { ABOUT_US_ROUTE } from "../../constants/routeNames";
         
 
 
 
-const HomeOnas = () => {
+export const HomeOnas = () => {
     return ( 
+     <Element 
+     name={ROUTES_TO_CLASSNAMES_MAP[ABOUT_US_ROUTE]}>
     <div className="homeOnas">
       <div className='contentOnas'>
         <div className="decoration"> 
@@ -25,7 +32,7 @@ const HomeOnas = () => {
       </div>
     
     </div> 
+    </Element> 
   );
 }
  
-export default HomeOnas;

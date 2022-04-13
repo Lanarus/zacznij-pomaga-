@@ -1,7 +1,7 @@
 import Instagram from '../../assets/Instagram.svg';
 import Facebook from '../../assets/Facebook.svg';
 
-const HomeFooter = () => {
+export const HomeFooter = () => {
     return ( 
         <div className="homeFooter">
             <div className='footerContent'>
@@ -18,4 +18,3 @@ const HomeFooter = () => {
      );
 }
  
-export default HomeFooter;

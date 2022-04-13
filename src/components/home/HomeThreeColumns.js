@@ -1,4 +1,4 @@
-const HomeThreeColumns = () => {
+export const HomeThreeColumns = () => {
     return ( 
     <div className="containerColumns">
       <div className="columns">
@@ -25,4 +25,3 @@ const HomeThreeColumns = () => {
   );
 }
  
-export default HomeThreeColumns;
