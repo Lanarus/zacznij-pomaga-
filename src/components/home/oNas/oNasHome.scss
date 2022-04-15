@@ -1,0 +1,26 @@
+@import '../../../scss/settings/colors';
+
+.homeOnas {
+    display: flex;  
+    background-color: $backgraund-main;
+  }
+  .contentOnas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 150px 50px 150px;
+      .signature {
+        padding-left: 260px;
+        margin-top: 30px;
+        width: 150px;
+        height: 120px;
+      }
+    
+  }
+  .onasImage {
+    width: 687px;
+    height: 650px;
+    
+  }

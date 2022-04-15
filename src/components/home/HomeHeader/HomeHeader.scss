@@ -27,5 +27,13 @@
     width: 70%;
   }
   
-  
+  .containerImage {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    .headerImage {
+      justify-content: flex-start;
+    }
+  }
 }

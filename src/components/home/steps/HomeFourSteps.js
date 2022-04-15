@@ -1,11 +1,13 @@
-import { Decoration } from './../Decoration/Decoration';
-import { Button } from "./../Button/Button";
+import { Decoration } from '../../Decoration/Decoration';
+import { Button } from "../../Button/Button";
+import { Link } from "react-router-dom";
 
-import Icon1 from '../../assets/Icon-1.svg';
-import Icon2 from '../../assets/Icon-2.svg';
-import Icon3 from '../../assets/Icon-3.svg';
-import Icon4 from '../../assets/Icon-4.svg';
+import Icon1 from './Icon-1.svg';
+import Icon2 from './Icon-2.svg';
+import Icon3 from './Icon-3.svg';
+import Icon4 from './Icon-4.svg';
 //import { Button } from 'react-scroll/modules';
+import './stepsHome.scss';
 
 
 export const HomeFourSteps = () => {
@@ -46,7 +48,7 @@ export const HomeFourSteps = () => {
                 </div>
             </div>
             <div className='btnSteps'>
-            <Button>ODDAJ RZECZY</Button>
+            <Link to="/logowanie"><Button>ODDAJ RZECZY</Button></Link>
             </div>
         </div>
      );

@@ -1,0 +1,29 @@
+@import '../../../scss/settings/colors';
+
+.homeKontact {
+    height: 900px;
+    background-image: url("./Background-Contact-Form.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    //opacity: 0.2;
+  
+    .formContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-right: 200px;
+    padding-top: 100px;
+    color: black;
+    }
+    .form {
+    padding: 15px 0px 15px 0px;
+    
+    }
+    .formfield {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+    }
+  }

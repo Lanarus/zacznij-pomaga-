@@ -43,7 +43,7 @@ export const ROUTES = [
     routes: HELPS_ROUTES
   },
   {
-    path: "/kontakt",
+    path: "/kontact",
     component: Home
   }
 ];

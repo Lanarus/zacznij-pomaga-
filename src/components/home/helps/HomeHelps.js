@@ -13,6 +13,8 @@ import { Element } from "react-scroll";
 import { ROUTES_TO_CLASSNAMES_MAP } from "../../../constants/routes";
 import { HELPS_ROUTE } from "../../../constants/routeNames";
 
+import './helpsHome.scss';
+
 export const HomeHelps = () => {
   return (
     <Element 

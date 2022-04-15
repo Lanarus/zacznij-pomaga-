@@ -3,11 +3,11 @@ import { useLocation } from 'react-router-dom';
 import { scroller } from "react-scroll";
 
 import { HomeHeader } from './HomeHeader/HomeHeader';
-import { HomeThreeColumns } from './HomeThreeColumns';
-import { HomeFourSteps } from './HomeFourSteps';
-import { HomeOnas } from './HomeOnas';
-import { HomeKontact } from './HomeKontact';
-import { HomeFooter } from './HomeFooter';
+import { HomeThreeColumns } from './columns/HomeThreeColumns';
+import { HomeFourSteps } from './steps/HomeFourSteps';
+import { HomeOnas } from './oNas/HomeOnas';
+import { HomeKontact } from './kontact/HomeKontact';
+import { HomeFooter } from './footer/HomeFooter';
 import { HomeHelps } from './helps/HomeHelps';
 
 import { ROUTES_TO_CLASSNAMES_MAP } from "../../constants/routes";

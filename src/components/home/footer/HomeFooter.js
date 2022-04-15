@@ -1,5 +1,6 @@
-import Instagram from '../../assets/Instagram.svg';
-import Facebook from '../../assets/Facebook.svg';
+import Instagram from './Instagram.svg';
+import Facebook from './Facebook.svg';
+import './footer.scss';
 
 export const HomeFooter = () => {
     return ( 

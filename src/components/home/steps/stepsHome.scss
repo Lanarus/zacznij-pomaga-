@@ -1,0 +1,46 @@
+@import '../../../scss/settings/colors';
+
+.fourSteps {
+    background-color: $backgraund-main;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .containerSteps {
+    width: 1000px;
+    display: flex;
+    
+    justify-content: space-around;
+    
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+  }
+  .containerSteps article {
+    padding: 10px 40px 10px 40px;
+    margin: 0px 20px 0px 20px;
+    .icon {
+      width: 83px;
+      height: 83px;
+      padding-bottom: 5px;
+    }
+  }
+  article .line {
+    padding: 0;
+    margin: 0;
+  }
+  .btnSteps {
+    display: flex;
+    justify-content: center;
+      button {
+        box-sizing: border-box;
+        width: 200px;
+        height: 85px;
+        margin: 20px 0 40px 0;
+        padding: 10px 50px 10px 50px;
+        border: 1px solid $color;
+        font-size: large;
+      }
+  }

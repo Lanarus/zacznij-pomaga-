@@ -1,8 +1,8 @@
 import { Decoration } from '../../Decoration/Decoration';
-// import HeaderImage from './Home-Hero-Image.jpg';
+import HeaderImage from './Home-Hero-Image.jpg';
 import { Button } from "../../Button/Button";
 import { Logowanie } from '../../login/Logowanie';
-import { Navbar} from '../../Navbar';
+import { Navbar} from '../nav/Navbar';
 
 import './HomeHeader.scss';
 
@@ -12,11 +12,11 @@ export const HomeHeader = () => {
         <Logowanie/>
         <Navbar/>
 
-        
-        {/* <div className="headerImage">
-          <img src={HeaderImage} alt="header image"/>
-        </div>  */}
-        
+        <div className='containerImage'>
+          <div className="headerImage">
+            <img src={HeaderImage} alt="header image"/>
+          </div>  
+        </div>
      
         <div className='containerHeader'>
           <div className="decoration"> 
@@ -24,7 +24,7 @@ export const HomeHeader = () => {
           </div>
         
           <div className='containerBtn'>
-            <Button className="btn" forceBorder height="75px" width="200px" size="big" style={{backgroundColor: 'red'}}>ODDAJ RZECZY</Button>
+            <Button className="btn" forceBorder height="75px" width="200px" size="big" style={{backgroundColor: 'white'}}>ODDAJ RZECZY</Button>
             <Button className="btn" forceBorder height="75px" width="200px" size="big">ZORGANIZUJ ZBIÓRKĘ</Button> 
           </div>
         </div>

@@ -1,0 +1,33 @@
+@import '../../../scss/settings/colors';
+@import '../../../scss/settings/fonts';
+
+.homeHelps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .whoHelps {
+    text-align: center;
+      ul {
+        display: flex;
+        flex-direction: row;
+      }
+  }
+  .whoHelps button {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font: $font-base;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0px 20px 0px 20px;
+    
+  }
+  
+  .variantsHelps {
+    width: 1000px;
+    height: 450px;
+    border: 1px solid $color;
+    margin-top: 50px;
+  }

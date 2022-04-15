@@ -1,10 +1,10 @@
-import { Decoration } from '../Decoration/Decoration';
-import { Button } from "../Button/Button";
-
+import { Decoration } from '../../Decoration/Decoration';
+import { Button } from "../../Button/Button";
+import './kontact.scss'
 import { Element } from "react-scroll";
 
-import { ROUTES_TO_CLASSNAMES_MAP } from "../../constants/routes";
-import { KONTACT_ROUTE } from "../../constants/routeNames";
+import { ROUTES_TO_CLASSNAMES_MAP } from "../../../constants/routes";
+import { KONTACT_ROUTE } from "../../../constants/routeNames";
 
 export const HomeKontact = () => {
     return ( 

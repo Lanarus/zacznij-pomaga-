@@ -1,8 +1,8 @@
 import { Element } from "react-scroll";
 
-import { ROUTES_TO_CLASSNAMES_MAP } from "../../constants/routes";
-import { COLUMNS_ROUTE } from "../../constants/routeNames";
-
+import { ROUTES_TO_CLASSNAMES_MAP } from "../../../constants/routes";
+import { COLUMNS_ROUTE } from "../../../constants/routeNames";
+import './threeColumns.scss';
 
 export const HomeThreeColumns = () => {
     return ( 
