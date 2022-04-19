@@ -1,14 +1,12 @@
-import { Decoration } from '../../Decoration/Decoration';
-import OnasImage from '../oNas/People.jpg';
-
-import Signature from '../oNas/Signature.svg';
-import './oNasHome.scss';
-
-
 import { Element } from "react-scroll";
 
 import { ROUTES_TO_CLASSNAMES_MAP } from "../../../constants/routes";
 import { ABOUT_US_ROUTE } from "../../../constants/routeNames";
+import { Decoration } from '../../Decoration/Decoration';
+
+import OnasImage from './People.jpg';
+import Signature from './Signature.svg';
+import './oNasHome.scss';
 
 export const HomeOnas = () => {
     return ( 

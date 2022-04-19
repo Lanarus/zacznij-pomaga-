@@ -6,14 +6,18 @@ import {
   Switch,
   Link
 } from "react-router-dom";
-import { HELPS_ROUTES } from "../../../constants/routes";
-
 import { Element } from "react-scroll";
 
+import { HELPS_ROUTES } from "../../../constants/routes";
 import { ROUTES_TO_CLASSNAMES_MAP } from "../../../constants/routes";
 import { HELPS_ROUTE } from "../../../constants/routeNames";
 
 import './helpsHome.scss';
+
+// 3 grupy importów:
+// - zewnętrzne
+// - z innych części projektów
+// - lokalne, jak `./helpsHome.scss` tutaj.
 
 export const HomeHelps = () => {
   return (
