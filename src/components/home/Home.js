@@ -7,12 +7,11 @@ import { HomeThreeColumns } from './columns/HomeThreeColumns';
 import { HomeFourSteps } from './steps/HomeFourSteps';
 import { HomeOnas } from './oNas/HomeOnas';
 import { HomeKontact } from './kontact/HomeKontact';
-import { HomeFooter } from './footer/HomeFooter';
 import { HomeHelps } from './helps/HomeHelps';
 
 import { ROUTES_TO_CLASSNAMES_MAP } from "../../constants/routes";
 
-export const Home = (props) => {
+export const Home = () => {
   const pathname = useLocation().pathname;
 
   useEffect(() => {
@@ -35,7 +34,6 @@ export const Home = (props) => {
         <HomeOnas/>
         <HomeHelps/>
         <HomeKontact/>
-        <HomeFooter/>
     </div>
   );
 }

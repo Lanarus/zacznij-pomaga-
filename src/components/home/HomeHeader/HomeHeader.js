@@ -13,9 +13,7 @@ export const HomeHeader = () => {
         <Navbar/>
 
         <div className='containerImage'>
-          <div className="headerImage">
-            <img src={HeaderImage} alt="header image"/>
-          </div>  
+          <img className="headerImage" src={HeaderImage} alt="header image"/>
         </div>
      
         <div className='containerHeader'>

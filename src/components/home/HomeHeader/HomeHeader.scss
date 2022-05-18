@@ -5,7 +5,6 @@
   display: flex; 
   flex-direction: column;
   align-items: flex-end;
-  height: 500px;
 
   .containerBtn {
     display: flex;
@@ -24,14 +23,18 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 70%;
+    margin: 50px 150px 200px;
   }
   
   .containerImage {
-    width: 300px;
-    height: 300px;
+    position: absolute;
+    top: 0;
+    left: -200px;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
+    z-index: -1;
+
     .headerImage {
       justify-content: flex-start;
     }
